@@ -1,6 +1,6 @@
 angular.module('starter.services', [])
 
-.factory('Chats', function() {
+.factory('Parse', function() {
   // Might use a resource here that returns a JSON array
 
   // Some fake testing data
@@ -30,8 +30,12 @@ angular.module('starter.services', [])
     lastText: 'This is wicked good ice cream.',
     face: 'https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png'
   }];
-
+    var app_id = 'J6JlZyaRmIHCjTwvJnwDzu0s4czvdcxBfXVlHFn7';
+    var api_key = 'PPQNpaU1yg0Jls9ZqKs4EIZp7t7OxNXzGIUp5fsV';
   return {
+    leader: function()  {
+      
+    }
     all: function() {
       return chats;
     },
