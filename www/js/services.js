@@ -34,8 +34,8 @@ angular.module('starter.services', [])
     var api_key = 'PPQNpaU1yg0Jls9ZqKs4EIZp7t7OxNXzGIUp5fsV';
   return {
     leader: function()  {
-      
-    }
+
+    },
     all: function() {
       return chats;
     },
