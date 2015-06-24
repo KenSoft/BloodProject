@@ -36,6 +36,24 @@ angular.module('starter.services', [])
     leader: function()  {
 
     },
+    search : function ()  {
+
+    },
+    getActivity : function ()  {
+
+    },
+    getRequest : function ()  {
+
+    },
+    donatorSignup : function () {
+
+    },
+    donatorDelete : function () {
+
+    },
+    requestInteract : function () {
+
+    },
     all: function() {
       return chats;
     },
